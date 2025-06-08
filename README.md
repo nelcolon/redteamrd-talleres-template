@@ -1,54 +1,36 @@
 # Plantilla de Taller – Nombre del Taller
-> Rellena los campos marcados con «TODO».
+> Rellena los campos marcados con «TODO» 🚀
 
 ## 1. Descripción general
-- **Título del taller:** TODO  
-- **Duración:** TODO (ej. 3 h 30 m)  
+- **Título del taller:** TODO
+- **Duración:** TODO (ej. 3 h 30 m)
 - **Modalidad:** TODO (virtual / presencial / híbrida)  
 - **Audiencia objetivo:** TODO (nivel y roles)  
 
 ## 2. Estructura del repositorio
-| Carpeta | ¿Qué colocar aquí? | Fecha límite (relativa) |
-|---------|--------------------|-------------------------|
-| `01-info` | `objetivos.md`, `esquema.md` | T-4 sem |
-| `02-slides/draft` | PDF/PPTX borrador | T-2 sem |
-| `03-labs` | VM OVA **o** scripts cloud + `guia-lab.md` | T-2 sem |
-| `05-ensayo` | Vídeo ensayo 15 min | T-10 d |
-| `06-entregable-final` | Slides PDF + guías + quiz | T-7 d |
-
-> Las carpetas `00-admin` y `99-logs` las gestiona el coordinador.
+| Carpeta | ¿Qué colocar aquí? |
+|---------|--------------------|
+| `01-info` | `objetivos.md`, `esquema.md` | 
+| `02-slides/draft` | PDF/PPTX borrador | 
+| `03-labs` | VM, OVA **o** scripts para deploy en cloud + `guia-lab.md` |
+| `04-assets` | Poner scripts generados en el lab, code snippets, cheat sheets, etc... | 
+| `05-videos` | Videos de soporte, o contenido audiovisual que pueda servier para dar ejemplos o backup por si falla algo en vivo o durante el taller. | 
+| `06-entregable-final` | Guías + Preguntas + Resources para referencia futura de los estudiantes y participantes. |
 
 ## 3. Convenciones de archivo
-- **Slides**: `nombre_taller_vX.pdf`  
-- **VM**: `lab-nombre_taller_vX.ova`  
+- **Slides**: `{nombre_taller_vX}.pdf`  
+- **VM**: `lab-{nombre_taller_vX}.ova`  
 - **Scripts**: prefijo numérico para orden (`01_recon.ps1`)  
-- **Vídeos**: `ensayo-15min.mp4` (máx. 200 MB)
+- **Vídeos**: `01_recon.mp4` (máx. 200 MB)
 
-## 4. Pasos para colaborar
+## 4. Pasos para hacer su repositorio
 1. **Fork** este repositorio en tu cuenta.  
-2. Trabaja en una branch `feature/<tu-nombre>`.  
-3. Haz *commit* frecuente; cada cambio significativo ⇒ `git push`.  
-4. Abre un **pull request** hacia `main` antes de cada checkpoint.  
-5. El coordinador hará *merge* tras la revisión.
+2. **Trabaja** en tu repositorio y coloca lo necesario dentro de.
+3. **Traspasa** el ownership del repositorio a la comunidad de RedTeamOrg, una vez se complete el taller.
 
-## 5. Cronograma resumido
-```text
-T-6 sem   Kick-off
-T-4 sem   Objetivos & esquema
-T-3 sem   Labs/plataforma cerrados
-T-2 sem   Slides borrador + recursos
-T-10 d    Vídeo ensayo
-T-7 d     Paquete final
-T-5 d     Tech-check asistentes
-T-0       Taller en vivo
-```
-
-## 6. Checklist previo a envío final
+## 5. Checklist previo a presentacion final.
 - [ ] Slides en PDF sin animaciones excesivas  
 - [ ] Lab verificado en host limpio / sandbox OK  
 - [ ] Guías incluyen respuestas y tiempos estimados  
 - [ ] Credenciales **dummy** y reseteables  
-- [ ] Vídeo ensayo reproduce todas las demos sin fallos  
-
-## 7. Contacto
-Cualquier duda abre un *Issue* etiquetado **question** o escribe a `coordinador@ejemplo.com`.
+- [ ] Contenido audiovisual sin cortes abruptos, sin mal audio y lo mas corto posible.  
